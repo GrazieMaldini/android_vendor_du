@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/init.local.rc:system/etc/init/dirtyunicorns.rc
 
+# Copy all DU-specific init rc files
+$(foreach f,$(wildcard vendor/du/prebuilt/common/etc/init/*.rc),\
+	$(eval PRODUCT_COPY_FILES += $(f):system/etc/init/$(notdir $f)))
+
 # Google permissions
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/permissions/privapp-permissions-elgoog.xml:system/etc/permissions/privapp-permissions-elgoog.xml
