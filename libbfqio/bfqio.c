@@ -21,6 +21,7 @@
 #include <cutils/log.h>
 #include <pthread.h>
 #include <sys/stat.h>
+#include <unistd.h>
 
 #include <unistd.h>
 
