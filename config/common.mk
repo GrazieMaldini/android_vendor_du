@@ -75,3 +75,8 @@ include vendor/themes/common.mk
 
 # Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
+
+# RRO
+BUILD_RRO_SYSTEM_PACKAGE := $(TOP)/vendor/du/config/system_rro.mk
+
+
