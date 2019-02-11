@@ -93,7 +93,7 @@
 
     <!-- System font packages (overlay in vendor) -->
     <string-array name="config_fontPackages" translatable="false">
-        <item>com.viper.fonts</item>
+        <item>com.custom.fonts</item>
     </string-array>
 
 </resources>
