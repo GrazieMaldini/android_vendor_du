@@ -85,6 +85,9 @@ include vendor/du/config/packages.mk
 # Branding
 include vendor/du/config/branding.mk
 
+# GApps
+include vendor/gapps/config.mk
+
 # Themes
 include vendor/themes/common.mk
 
