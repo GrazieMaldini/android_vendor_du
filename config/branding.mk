@@ -16,7 +16,7 @@ DU_DATE := $(shell date -u +%d-%m-%Y)
 DATE := $(shell date -u +%Y%m%d)
 TIME := $(shell date -u +%H%M)
 DU_BUILD_VERSION := $(DU_BUILD_TYPE)-$(DU_BASE_VERSION)-$(DATE)-$(TIME)
-DU_VERSION := DU-REX-V_$(DU_BASE_VERSION)-$(DATE)-$(DU_BUILD_TYPE)
+DU_VERSION := DU-REX-V_$(DU_BASE_VERSION)-$(DATE)-$(DATE)-$(TIME)
 TARGET_BACON_NAME := $(DU_VERSION)
 ROM_FINGERPRINT := DirtyUnicorns/$(PLATFORM_VERSION)/$(DU_BUILD_TYPE)/$(DATE)$(TIME)
 
