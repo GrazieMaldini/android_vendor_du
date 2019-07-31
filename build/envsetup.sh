@@ -84,7 +84,7 @@ function pushboot() {
 function repopick() {
     set_stuff_for_environment
     T=$(gettop)
-    $T/vendor/extras/build/tools/repopick.py $@
+    $T/vendor/du/build/tools/repopick.py $@
 }
 
 function aospremote() {
